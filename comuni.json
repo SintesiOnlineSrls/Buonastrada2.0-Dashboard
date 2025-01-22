@@ -1,0 +1,572 @@
+[
+  {
+    "id": 1,
+    "nome": "Acate",
+    "provincia": "EN",
+    "slug": "EN-acate"
+  },
+  {
+    "id": 2,
+    "nome": "Aci Bonaccorsi",
+    "provincia": "CT",
+    "slug": "CT-aci-bonaccorsi"
+  },
+  {
+    "id": 3,
+    "nome": "Aci Castello",
+    "provincia": "CT",
+    "slug": "CT-aci-castello"
+  },
+  {
+    "id": 4,
+    "nome": "Aci Catena",
+    "provincia": "CT",
+    "slug": "CT-aci-catena"
+  },
+  {
+    "id": 5,
+    "nome": "Aci Sant'Antonio",
+    "provincia": "CT",
+    "slug": "CT-aci-sant-antonio"
+  },
+  {
+    "id": 6,
+    "nome": "Acireale",
+    "provincia": "CT",
+    "slug": "CT-acireale"
+  },
+  {
+    "id": 7,
+    "nome": "Acquaviva Platani",
+    "provincia": "CL",
+    "slug": "CL-acquaviva-platani"
+  },
+  {
+    "id": 8,
+    "nome": "Acquedolci",
+    "provincia": "ME",
+    "slug": "ME-acquedolci"
+  },
+  {
+    "id": 9,
+    "nome": "Adrano",
+    "provincia": "CT",
+    "slug": "CT-adrano"
+  },
+  {
+    "id": 10,
+    "nome": "Agira",
+    "provincia": "EN",
+    "slug": "EN-agira"
+  },
+  {
+    "id": 11,
+    "nome": "Agrigento",
+    "provincia": "AG",
+    "slug": "AG-agrigento"
+  },
+  {
+    "id": 12,
+    "nome": "Aidone",
+    "provincia": "EN",
+    "slug": "EN-aidone"
+  },
+  {
+    "id": 13,
+    "nome": "Alcamo",
+    "provincia": "TP",
+    "slug": "TP-alcamo"
+  },
+  {
+    "id": 14,
+    "nome": "Alcara Li Fusi",
+    "provincia": "ME",
+    "slug": "ME-alcara-li-fusi"
+  },
+  {
+    "id": 15,
+    "nome": "Alessandria della Rocca",
+    "provincia": "AG",
+    "slug": "AG-alessandria-della-rocca"
+  },
+  {
+    "id": 16,
+    "nome": "Alia",
+    "provincia": "PA",
+    "slug": "PA-alia"
+  },
+  {
+    "id": 17,
+    "nome": "Alimena",
+    "provincia": "PA",
+    "slug": "PA-alimena"
+  },
+  {
+    "id": 18,
+    "nome": "Aliminusa",
+    "provincia": "PA",
+    "slug": "PA-aliminusa"
+  },
+  {
+    "id": 19,
+    "nome": "Altavilla Milicia",
+    "provincia": "PA",
+    "slug": "PA-altavilla-milicia"
+  },
+  {
+    "id": 20,
+    "nome": "Altofonte",
+    "provincia": "PA",
+    "slug": "PA-altofonte"
+  },
+  {
+    "id": 21,
+    "nome": "Alì",
+    "provincia": "ME",
+    "slug": "ME-ali"
+  },
+  {
+    "id": 22,
+    "nome": "Alì Terme",
+    "provincia": "ME",
+    "slug": "ME-ali-terme"
+  },
+  {
+    "id": 23,
+    "nome": "Antillo",
+    "provincia": "ME",
+    "slug": "ME-antillo"
+  },
+  {
+    "id": 24,
+    "nome": "Aragona",
+    "provincia": "AG",
+    "slug": "AG-aragona"
+  },
+  {
+    "id": 25,
+    "nome": "Assoro",
+    "provincia": "EN",
+    "slug": "EN-assoro"
+  },
+  {
+    "id": 26,
+    "nome": "Augusta",
+    "provincia": "SR",
+    "slug": "SR-augusta"
+  },
+  {
+    "id": 27,
+    "nome": "Avola",
+    "provincia": "SR",
+    "slug": "SR-avola"
+  },
+  {
+    "id": 28,
+    "nome": "Bagheria",
+    "provincia": "PA",
+    "slug": "PA-bagheria"
+  },
+  {
+    "id": 29,
+    "nome": "Balestrate",
+    "provincia": "PA",
+    "slug": "PA-balestrate"
+  },
+  {
+    "id": 30,
+    "nome": "Barcellona Pozzo di Gotto",
+    "provincia": "ME",
+    "slug": "ME-barcellona-pozzo-di-gotto"
+  },
+  {
+    "id": 31,
+    "nome": "Barrafranca",
+    "provincia": "EN",
+    "slug": "EN-barrafranca"
+  },
+  {
+    "id": 32,
+    "nome": "Basicò",
+    "provincia": "ME",
+    "slug": "ME-basico"
+  },
+  {
+    "id": 33,
+    "nome": "Baucina",
+    "provincia": "PA",
+    "slug": "PA-baucina"
+  },
+  {
+    "id": 34,
+    "nome": "Belmonte Mezzagno",
+    "provincia": "PA",
+    "slug": "PA-belmonte-mezzagno"
+  },
+  {
+    "id": 35,
+    "nome": "Belpasso",
+    "provincia": "CT",
+    "slug": "CT-belpasso"
+  },
+  {
+    "id": 36,
+    "nome": "Biancavilla",
+    "provincia": "CT",
+    "slug": "CT-biancavilla"
+  },
+  {
+    "id": 37,
+    "nome": "Bisacquino",
+    "provincia": "PA",
+    "slug": "PA-bisacquino"
+  },
+  {
+    "id": 38,
+    "nome": "Bivona",
+    "provincia": "AG",
+    "slug": "AG-bivona"
+  },
+  {
+    "id": 39,
+    "nome": "Blufi",
+    "provincia": "PA",
+    "slug": "PA-blufi"
+  },
+  {
+    "id": 40,
+    "nome": "Bolognetta",
+    "provincia": "PA",
+    "slug": "PA-bolognetta"
+  },
+  {
+    "id": 41,
+    "nome": "Bompensiere",
+    "provincia": "CL",
+    "slug": "CL-bompensiere"
+  },
+  {
+    "id": 42,
+    "nome": "Bompietro",
+    "provincia": "PA",
+    "slug": "PA-bompietro"
+  },
+  {
+    "id": 43,
+    "nome": "Borgetto",
+    "provincia": "PA",
+    "slug": "PA-borgetto"
+  },
+  {
+    "id": 44,
+    "nome": "Brolo",
+    "provincia": "ME",
+    "slug": "ME-brolo"
+  },
+  {
+    "id": 45,
+    "nome": "Bronte",
+    "provincia": "CT",
+    "slug": "CT-bronte"
+  },
+  {
+    "id": 46,
+    "nome": "Buccheri",
+    "provincia": "SR",
+    "slug": "SR-buccheri"
+  },
+  {
+    "id": 47,
+    "nome": "Burgio",
+    "provincia": "AG",
+    "slug": "AG-burgio"
+  },
+  {
+    "id": 48,
+    "nome": "Buscemi",
+    "provincia": "SR",
+    "slug": "SR-buscemi"
+  },
+  {
+    "id": 49,
+    "nome": "Buseto Palizzolo",
+    "provincia": "TP",
+    "slug": "TP-buseto-palizzolo"
+  },
+  {
+    "id": 50,
+    "nome": "Butera",
+    "provincia": "CL",
+    "slug": "CL-butera"
+  },
+  {
+    "id": 51,
+    "nome": "Caccamo",
+    "provincia": "PA",
+    "slug": "PA-caccamo"
+  },
+  {
+    "id": 52,
+    "nome": "Calamonaci",
+    "provincia": "AG",
+    "slug": "AG-calamonaci"
+  },
+  {
+    "id": 53,
+    "nome": "Calascibetta",
+    "provincia": "EN",
+    "slug": "EN-calascibetta"
+  },
+  {
+    "id": 54,
+    "nome": "Calatabiano",
+    "provincia": "CT",
+    "slug": "CT-calatabiano"
+  },
+  {
+    "id": 55,
+    "nome": "Calatafimi Segesta",
+    "provincia": "TP",
+    "slug": "TP-calatafimi-segesta"
+  },
+  {
+    "id": 56,
+    "nome": "Caltabellotta",
+    "provincia": "AG",
+    "slug": "AG-caltabellotta"
+  },
+  {
+    "id": 57,
+    "nome": "Caltagirone",
+    "provincia": "CT",
+    "slug": "CT-caltagirone"
+  },
+  {
+    "id": 58,
+    "nome": "Caltanissetta",
+    "provincia": "CL",
+    "slug": "CL-caltanissetta"
+  },
+  {
+    "id": 59,
+    "nome": "Caltavuturo",
+    "provincia": "PA",
+    "slug": "PA-caltavuturo"
+  },
+  {
+    "id": 60,
+    "nome": "Camastra",
+    "provincia": "AG",
+    "slug": "AG-camastra"
+  },
+  {
+    "id": 61,
+    "nome": "Cammarata",
+    "provincia": "AG",
+    "slug": "AG-cammarata"
+  },
+  {
+    "id": 62,
+    "nome": "Campobello di Licata",
+    "provincia": "AG",
+    "slug": "AG-campobello-di-licata"
+  },
+  {
+    "id": 63,
+    "nome": "Campobello di Mazara",
+    "provincia": "TP",
+    "slug": "TP-campobello-di-mazara"
+  },
+  {
+    "id": 64,
+    "nome": "Campofelice di Fitalia",
+    "provincia": "PA",
+    "slug": "PA-campofelice-di-fitalia"
+  },
+  {
+    "id": 65,
+    "nome": "Campofelice di Roccella",
+    "provincia": "PA",
+    "slug": "PA-campofelice-di-roccella"
+  },
+  {
+    "id": 66,
+    "nome": "Campofiorito",
+    "provincia": "PA",
+    "slug": "PA-campofiorito"
+  },
+  {
+    "id": 67,
+    "nome": "Campofranco",
+    "provincia": "CL",
+    "slug": "CL-campofranco"
+  },
+  {
+    "id": 68,
+    "nome": "Camporeale",
+    "provincia": "PA",
+    "slug": "PA-camporeale"
+  },
+  {
+    "id": 69,
+    "nome": "Camporotondo Etneo",
+    "provincia": "CT",
+    "slug": "CT-camporotondo-etneo"
+  },
+  {
+    "id": 70,
+    "nome": "Canicattini Bagni",
+    "provincia": "SR",
+    "slug": "SR-canicattini-bagni"
+  },
+  {
+    "id": 71,
+    "nome": "Canicattì",
+    "provincia": "AG",
+    "slug": "AG-canicatti"
+  },
+  {
+    "id": 72,
+    "nome": "Capaci",
+    "provincia": "PA",
+    "slug": "PA-capaci"
+  },
+  {
+    "id": 73,
+    "nome": "Capizzi",
+    "provincia": "ME",
+    "slug": "ME-capizzi"
+  },
+  {
+    "id": 74,
+    "nome": "Capo d'Orlando",
+    "provincia": "ME",
+    "slug": "ME-capo-d-orlando"
+  },
+  {
+    "id": 75,
+    "nome": "Capri Leone",
+    "provincia": "ME",
+    "slug": "ME-capri-leone"
+  },
+  {
+    "id": 76,
+    "nome": "Carini",
+    "provincia": "PA",
+    "slug": "PA-carini"
+  },
+  {
+    "id": 77,
+    "nome": "Carlentini",
+    "provincia": "SR",
+    "slug": "SR-carlentini"
+  },
+  {
+    "id": 78,
+    "nome": "Caronia",
+    "provincia": "ME",
+    "slug": "ME-caronia"
+  },
+  {
+    "id": 79,
+    "nome": "Casalvecchio Siculo",
+    "provincia": "ME",
+    "slug": "ME-casalvecchio-siculo"
+  },
+  {
+    "id": 80,
+    "nome": "Cassaro",
+    "provincia": "SR",
+    "slug": "SR-cassaro"
+  },
+  {
+    "id": 81,
+    "nome": "Castel di Iudica",
+    "provincia": "CT",
+    "slug": "CT-castel-di-iudica"
+  },
+  {
+    "id": 82,
+    "nome": "Castel di Lucio",
+    "provincia": "ME",
+    "slug": "ME-castel-di-lucio"
+  },
+  {
+    "id": 83,
+    "nome": "Castelbuono",
+    "provincia": "PA",
+    "slug": "PA-castelbuono"
+  },
+  {
+    "id": 84,
+    "nome": "Casteldaccia",
+    "provincia": "PA",
+    "slug": "PA-casteldaccia"
+  },
+  {
+    "id": 85,
+    "nome": "Castell'Umberto",
+    "provincia": "ME",
+    "slug": "ME-castell-umberto"
+  },
+  {
+    "id": 86,
+    "nome": "Castellammare del Golfo",
+    "provincia": "TP",
+    "slug": "TP-castellammare-del-golfo"
+  },
+  {
+    "id": 87,
+    "nome": "Castellana Sicula",
+    "provincia": "PA",
+    "slug": "PA-castellana-sicula"
+  },
+  {
+    "id": 88,
+    "nome": "Castelmola",
+    "provincia": "ME",
+    "slug": "ME-castelmola"
+  },
+  {
+    "id": 89,
+    "nome": "Casteltermini",
+    "provincia": "AG",
+    "slug": "AG-casteltermini"
+  },
+  {
+    "id": 90,
+    "nome": "Castelvetrano",
+    "provincia": "TP",
+    "slug": "TP-castelvetrano"
+  },
+  {
+    "id": 91,
+    "nome": "Castiglione di Sicilia",
+    "provincia": "CT",
+    "slug": "CT-castiglione-di-sicilia"
+  },
+  {
+    "id": 92,
+    "nome": "Castrofilippo",
+    "provincia": "AG",
+    "slug": "AG-castrofilippo"
+  },
+  {
+    "id": 93,
+    "nome": "Castronovo di Sicilia",
+    "provincia": "PA",
+    "slug": "PA-castronovo-di-sicilia"
+  },
+  {
+    "id": 94,
+    "nome": "Castroreale",
+    "provincia": "ME",
+    "slug": "ME-castroreale"
+  },
+  {
+    "id": 95,
+    "nome": "Catania",
+    "provincia": "CT",
+    "slug": "CT-catania"
+  }
+]

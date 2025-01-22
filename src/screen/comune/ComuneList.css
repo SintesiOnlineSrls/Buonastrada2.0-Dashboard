@@ -1,0 +1,188 @@
+.comune-list {
+    margin: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.comune-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.comune-create-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.comune-create-button:hover {
+    background-color: #218838;
+}
+
+#search-input-cmn {
+    padding: 4px 8px;
+    width: 160px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comune-search-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 6px;
+}
+
+.comune-search-select {
+    padding: 4px 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comune-search-input {
+    padding: 4px 8px;
+    width: 160px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.comune-table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.comune-table th,
+.comune-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.comune-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.comune-table tr:hover {
+    background-color: #afafaf;
+}
+
+/* Colonna ID */
+.comune-table th:nth-child(1),
+.comune-table td:nth-child(1) {
+    width: 1%;
+}
+
+/* Colonna Nome */
+.comune-table th:nth-child(2),
+.comune-table td:nth-child(2) {
+    width: 15%;
+}
+
+/* Colonna Provincia */
+.comune-table th:nth-child(3),
+.comune-table td:nth-child(3) {
+    width: 3%;
+}
+
+
+.comune-cell {
+    position: relative;
+}
+
+.comune-actions {
+    display: none;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.comune-cell:hover .comune-actions {
+    display: flex;
+}
+
+.comune-actions button {
+    padding: 3px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: background-color 0.3s ease;
+}
+
+.comune-actions .edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.comune-actions .edit:hover {
+    background-color: #45a049;
+}
+
+.comune-actions .delete {
+    background-color: red;
+    color: white;
+}
+
+.comune-actions .delete:hover {
+    background-color: #d32f2f;
+}
+
+.comune-table tbody {
+    display: block;
+    overflow-y: auto;
+}
+
+.comune-table thead,
+.comune-table tbody tr {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+}
+
+.comune-pagination {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.comune-pagination button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comune-pagination button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.comune-pagination span {
+    font-size: 14px;
+    color: #333;
+}
+
+.comune-count {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}

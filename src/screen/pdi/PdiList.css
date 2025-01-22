@@ -1,0 +1,210 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.create-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+    background-color: #218838;
+}
+
+.pdi-list {
+    margin: 12px;
+    font-family: Arial, sans-serif;
+}
+
+#search-bar-pdi {
+    display: flex;
+    width: 20%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 6px;
+}
+
+.search-select {
+    padding: 4px 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 10%;
+}
+
+#search-input-pdi {
+    padding: 4px 8px;
+    width: 160px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#pdi-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+#pdi-table th,
+#pdi-table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#pdi-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#pdi-table tr:hover {
+    background-color: #afafaf;
+}
+
+.nome-cell {
+    position: relative;
+}
+
+.nome-actions {
+    display: none;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.nome-cell:hover .nome-actions {
+    display: flex;
+}
+
+/* Azioni Modifica/Elimina */
+.nome-actions button {
+    padding: 3px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: background-color 0.3s ease;
+}
+
+.nome-actions .edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.nome-actions .edit:hover {
+    background-color: #45a049;
+}
+
+.nome-actions .delete {
+    background-color: red;
+    color: white;
+}
+
+.nome-actions .delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Tabella con altezza massima e scroll */
+#pdi-table tbody {
+    display: block;
+    /* max-height: 280px; */
+    overflow-y: auto;
+}
+
+#pdi-table thead,
+#pdi-table tbody tr {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+}
+
+/* Larghezze delle colonne */
+#pdi-table td:nth-child(1),
+/* ID */
+#pdi-table th:nth-child(1) {
+    width: 2%;
+}
+
+#pdi-table td:nth-child(2),
+/* Nome */
+#pdi-table th:nth-child(2) {
+    width: 20%;
+}
+
+
+#pdi-table td:nth-child(3),
+/* Comune */
+#pdi-table th:nth-child(3) {
+    width: 15%;
+}
+
+#pdi-table td:nth-child(4),
+/* Provincia */
+#pdi-table th:nth-child(4) {
+    width: 5%;
+}
+
+#pdi-table td:nth-child(5),
+/* Categoria */
+#pdi-table th:nth-child(5) {
+    width: 25%;
+}
+
+#pdi-table td:nth-child(6),
+/* Data Creazione */
+#pdi-table th:nth-child(6) {
+    width: 12%;
+}
+
+#pdi-table td:nth-child(7),
+/* Ultima Modifica */
+#pdi-table th:nth-child(7) {
+    width: 13%;
+}
+
+.pdi-count {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    font-size: 14px;
+    color: #333;
+}

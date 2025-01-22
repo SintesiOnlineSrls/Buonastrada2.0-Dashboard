@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../buonastrada2_0"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "buonastrada2_0_dashboard"
+	}
+}

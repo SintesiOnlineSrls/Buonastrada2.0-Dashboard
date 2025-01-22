@@ -1,0 +1,71 @@
+/* PdiCreate.js */
+.pdi-create {
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+.pdi-create h1 {
+    text-align: center;
+}
+
+.error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.create-form .form-group {
+    margin-bottom: 15px;
+}
+
+.create-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.create-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.scrollable-box {
+    max-height: 150px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+.list-item {
+    padding: 5px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    background-color: #ddd;
+}
+
+.list-item.selected {
+    background-color: #cce5ff;
+    font-weight: bold;
+}

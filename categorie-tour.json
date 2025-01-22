@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Avventura"
+  },
+  {
+    "id": 2,
+    "name": "Culturale"
+  },
+  {
+    "id": 3,
+    "name": "Natura"
+  },
+  {
+    "id": 4,
+    "name": "Storico"
+  },
+  {
+    "id": 5,
+    "name": "Enogastronomico"
+  },
+  {
+    "id": 6,
+    "name": "Religioso"
+  },
+  {
+    "id": 7,
+    "name": "Sportivo"
+  },
+  {
+    "id": 8,
+    "name": "Fotografico"
+  }
+]

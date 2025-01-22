@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Archeologico"
+  },
+  {
+    "id": 2,
+    "name": "Naturale"
+  },
+  {
+    "id": 3,
+    "name": "Culturale"
+  },
+  {
+    "id": 4,
+    "name": "Prova"
+  },
+  {
+    "id": 5,
+    "name": "Prova151"
+  }
+]

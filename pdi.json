@@ -1,0 +1,508 @@
+[
+  {
+    "id": 1,
+    "nome": "Museo Archeologico",
+    "slug": "CT-aci-catena-museo-archeologico",
+    "comune": "Aci Catena",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      },
+      {
+        "id": 4,
+        "name": "Prova"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:30:00",
+    "ultimaModifica": "20-01-2025 10:34:11",
+    "tours": [
+      {
+        "id": 5,
+        "nome": "Tour Generato 5"
+      },
+      {
+        "id": 6,
+        "nome": "Tour Generato 6"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Riserva Naturale Orientata",
+    "slug": "CT-caltagirone-riserva-naturale-orientata",
+    "comune": "Caltagirone",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:31:00",
+    "ultimaModifica": "09-12-2024 10:58:59",
+    "tours": []
+  },
+  {
+    "id": 3,
+    "nome": "Centro Culturale Etneo",
+    "slug": "CT-catania-centro-culturale-etneo",
+    "comune": "Catania",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      },
+      {
+        "id": 4,
+        "name": "Prova"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:32:00",
+    "ultimaModifica": "09-12-2024 10:59:03",
+    "tours": [
+      {
+        "id": 2,
+        "nome": "Tour Naturalistico"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Parco Archeologico",
+    "slug": "AG-agrigento-parco-archeologico",
+    "comune": "Agrigento",
+    "provincia": "AG",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      },
+      {
+        "id": 2,
+        "name": "Naturale"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:33:00",
+    "ultimaModifica": "09-12-2024 10:59:14",
+    "tours": []
+  },
+  {
+    "id": 5,
+    "nome": "Galleria d'Arte",
+    "slug": "TP-castellammare-del-golfo-galleria-darte",
+    "comune": "Castellammare del Golfo",
+    "provincia": "TP",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:34:00",
+    "ultimaModifica": "09-12-2024 10:59:18",
+    "tours": []
+  },
+  {
+    "id": 6,
+    "nome": "Osservatorio Astronomico",
+    "slug": "PA-bompietro-osservatorio-astronomico",
+    "comune": "Bompietro",
+    "provincia": "PA",
+    "categorie": [
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:35:00",
+    "ultimaModifica": "09-12-2024 10:59:43",
+    "tours": []
+  },
+  {
+    "id": 7,
+    "nome": "Museo della Ceramica",
+    "slug": "CT-caltagirone-museo-della-ceramica",
+    "comune": "Caltagirone",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 4,
+        "name": "Prova"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:36:00",
+    "ultimaModifica": "09-12-2024 10:59:51",
+    "tours": [
+      {
+        "id": 3,
+        "nome": "Tour Culturale"
+      },
+      {
+        "id": 4,
+        "nome": "Tour Prova"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Biblioteca Storica",
+    "slug": "EN-acate-biblioteca-storica",
+    "comune": "Acate",
+    "provincia": "EN",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:37:00",
+    "ultimaModifica": "09-12-2024 10:59:58",
+    "tours": []
+  },
+  {
+    "id": 9,
+    "nome": "Castello Normanno",
+    "slug": "CT-aci-castello-castello-normanno",
+    "comune": "Aci Castello",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:38:00",
+    "ultimaModifica": "25-11-2024 10:38:00",
+    "tours": []
+  },
+  {
+    "id": 10,
+    "nome": "Sentiero Naturalistico",
+    "slug": "CT-bronte-sentiero-naturalistico",
+    "comune": "Bronte",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      }
+    ],
+    "dataCreazione": "25-11-2024 10:39:00",
+    "ultimaModifica": "26-11-2024 10:11:51",
+    "tours": []
+  },
+  {
+    "id": 11,
+    "nome": "Provola",
+    "slug": "EN-acate-provola",
+    "comune": "Acate",
+    "provincia": "EN",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:12:21",
+    "ultimaModifica": "09-12-2024 10:49:16",
+    "tours": []
+  },
+  {
+    "id": 12,
+    "nome": "Prova23",
+    "slug": "CT-aci-sant-antonio-prova23",
+    "comune": "Aci Sant'Antonio",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:17:14",
+    "ultimaModifica": "26-11-2024 10:17:14",
+    "tours": []
+  },
+  {
+    "id": 13,
+    "nome": "Villa Romana del Casale",
+    "slug": "CT-aci-bonaccorsi-villa-romana-del-casale",
+    "comune": "Aci Bonaccorsi",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      },
+      {
+        "id": 2,
+        "name": "Naturale"
+      },
+      {
+        "id": 4,
+        "name": "Prova"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:30:00",
+    "ultimaModifica": "14-01-2025 10:29:18",
+    "tours": []
+  },
+  {
+    "id": 14,
+    "nome": "Teatro Antico",
+    "slug": "ME-taormina-teatro-antico",
+    "comune": "Taormina",
+    "provincia": "ME",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:31:00",
+    "ultimaModifica": "26-11-2024 10:31:00",
+    "tours": []
+  },
+  {
+    "id": 15,
+    "nome": "Parco delle Madonie",
+    "slug": "PA-cefalu-parco-delle-madonie",
+    "comune": "Cefalù",
+    "provincia": "PA",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:32:00",
+    "ultimaModifica": "26-11-2024 10:32:00",
+    "tours": []
+  },
+  {
+    "id": 16,
+    "nome": "Museo di Arte Contemporanea",
+    "slug": "PA-palermo-museo-di-arte-contemporanea",
+    "comune": "Palermo",
+    "provincia": "PA",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:33:00",
+    "ultimaModifica": "26-11-2024 10:33:00",
+    "tours": []
+  },
+  {
+    "id": 17,
+    "nome": "Grotta Mangiapane",
+    "slug": "TP-custonaci-grotta-mangiapane",
+    "comune": "Custonaci",
+    "provincia": "TP",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:34:00",
+    "ultimaModifica": "26-11-2024 10:34:00",
+    "tours": []
+  },
+  {
+    "id": 18,
+    "nome": "Castello di Donnafugata",
+    "slug": "RG-ragusa-castello-di-donnafugata",
+    "comune": "Ragusa",
+    "provincia": "RG",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:35:00",
+    "ultimaModifica": "26-11-2024 10:35:00",
+    "tours": []
+  },
+  {
+    "id": 19,
+    "nome": "Tempio di Segesta",
+    "slug": "TP-calatafimi-segesta-tempio-di-segesta",
+    "comune": "Calatafimi Segesta",
+    "provincia": "TP",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:36:00",
+    "ultimaModifica": "26-11-2024 10:36:00",
+    "tours": []
+  },
+  {
+    "id": 20,
+    "nome": "Riserva dello Zingaro",
+    "slug": "CT-aci-bonaccorsi-riserva-dello-zingaro",
+    "comune": "Aci Bonaccorsi",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      },
+      {
+        "id": 4,
+        "name": "Prova"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:37:00",
+    "ultimaModifica": "28-11-2024 12:57:21",
+    "tours": []
+  },
+  {
+    "id": 21,
+    "nome": "Chiesa di San Nicolò",
+    "slug": "SR-noto-chiesa-di-san-nicolo",
+    "comune": "Noto",
+    "provincia": "SR",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Culturale"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:38:00",
+    "ultimaModifica": "26-11-2024 10:38:00",
+    "tours": []
+  },
+  {
+    "id": 22,
+    "nome": "Sbricchi",
+    "slug": "EN-acate-sbricchi",
+    "comune": "Acate",
+    "provincia": "EN",
+    "categorie": [
+      {
+        "id": 4,
+        "name": "Prova"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      },
+      {
+        "id": 3,
+        "name": "Culturale"
+      }
+    ],
+    "dataCreazione": "26-11-2024 10:50:29",
+    "ultimaModifica": "03-12-2024 09:59:34",
+    "tours": [
+      {
+        "id": 3,
+        "nome": "Tour Culturale"
+      },
+      {
+        "id": 1,
+        "nome": "Tour Archeologico Sicilia"
+      },
+      {
+        "id": 4,
+        "nome": "Tour Prova"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "Castello Mago",
+    "slug": "EN-acate-castello-mago",
+    "comune": "Acate",
+    "provincia": "EN",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Archeologico"
+      },
+      {
+        "id": 3,
+        "name": "Culturale"
+      }
+    ],
+    "dataCreazione": "27-11-2024 09:50:37",
+    "ultimaModifica": "03-12-2024 12:30:28",
+    "tours": [
+      {
+        "id": 2,
+        "nome": "Tour Naturalistico"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Prova",
+    "slug": "CT-aci-catena-prova",
+    "comune": "Aci Catena",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      },
+      {
+        "id": 5,
+        "name": "Prova151"
+      }
+    ],
+    "dataCreazione": "27-11-2024 10:27:55",
+    "ultimaModifica": "03-12-2024 12:29:09",
+    "tours": []
+  },
+  {
+    "id": 25,
+    "nome": "Prova Di Uno Slug",
+    "slug": "CT-aci-castello-prova-di-uno-slug",
+    "comune": "Aci Castello",
+    "provincia": "CT",
+    "categorie": [
+      {
+        "id": 2,
+        "name": "Naturale"
+      }
+    ],
+    "dataCreazione": "04-12-2024 11:48:20",
+    "ultimaModifica": "04-12-2024 11:49:15",
+    "tours": [
+      {
+        "id": 3,
+        "nome": "Tour Culturale"
+      }
+    ]
+  }
+]

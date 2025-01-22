@@ -1,0 +1,69 @@
+.dashboard-home {
+    padding: 20px;
+}
+
+.recent-pdi-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: fixed;
+    /* Permette di gestire le larghezze delle colonne */
+}
+
+.recent-pdi-table th,
+.recent-pdi-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Imposta larghezze specifiche per le colonne */
+.recent-pdi-table th:nth-child(1),
+.recent-pdi-table td:nth-child(1) {
+    width: 30%;
+    /* Nome */
+}
+
+.recent-pdi-table th:nth-child(2),
+.recent-pdi-table td:nth-child(2) {
+    width: 25%;
+    /* Comune */
+}
+
+.recent-pdi-table th:nth-child(3),
+.recent-pdi-table td:nth-child(3) {
+    width: 25%;
+    /* Ultima Modifica */
+}
+
+.recent-pdi-table th:nth-child(4),
+.recent-pdi-table td:nth-child(4) {
+    width: 20%;
+    /* Azioni */
+}
+
+.recent-pdi-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Pulsanti */
+.edit-button,
+.view-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.view-button {
+    background-color: #28a745;
+    color: white;
+}

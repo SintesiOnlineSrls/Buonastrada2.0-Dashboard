@@ -1,0 +1,190 @@
+.tour-list {
+    margin: 12px;
+    font-family: Arial, sans-serif;
+}
+
+.create-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+
+.create-button:hover {
+    background-color: #218838;
+}
+
+.search-bar-tour {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 6px;
+}
+
+.search-select,
+.search-input {
+    padding: 4px 8px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#search-input-tour {
+    padding: 4px 8px;
+    width: 160px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+table tr:hover {
+    background-color: #afafaf;
+}
+
+/* Colonne della tabella */
+table td:nth-child(1),
+table th:nth-child(1) {
+    width: 2%;
+    /* ID */
+}
+
+table td:nth-child(2),
+table th:nth-child(2) {
+    width: 10%;
+    /* Nome */
+}
+
+table td:nth-child(3),
+table th:nth-child(3) {
+    width: 10%;
+    /* Categoria */
+}
+
+table td:nth-child(4),
+table th:nth-child(4) {
+    width: 30%;
+    /* Punti di Interesse */
+}
+
+table td:nth-child(5),
+table th:nth-child(5) {
+    width: 12%;
+    /* Data Creazione */
+}
+
+table td:nth-child(6),
+table th:nth-child(6) {
+    width: 13%;
+    /* Ultima Modifica */
+}
+
+/* Azioni */
+.nome-actions {
+    display: none;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.nome-cell:hover .nome-actions {
+    display: flex;
+}
+
+.nome-actions button {
+    padding: 3px 6px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 11px;
+    transition: background-color 0.3s ease;
+}
+
+.nome-actions .edit {
+    background-color: #4caf50;
+    color: white;
+}
+
+.nome-actions .edit:hover {
+    background-color: #45a049;
+}
+
+.nome-actions .delete {
+    background-color: red;
+    color: white;
+}
+
+.nome-actions .delete:hover {
+    background-color: #d32f2f;
+}
+
+/* Tabella scrollabile */
+table tbody {
+    display: block;
+    overflow-y: auto;
+}
+
+table thead,
+table tbody tr {
+    display: table;
+    width: 80%;
+    table-layout: fixed;
+}
+
+.tour-count {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.pagination button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button[disabled] {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    font-size: 14px;
+    color: #333;
+}

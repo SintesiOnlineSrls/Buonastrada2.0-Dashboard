@@ -1,0 +1,121 @@
+/* Animazione shake */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+/* Classe per attivare l'animazione shake */
+.shake {
+  animation: shake 0.3s ease-in-out;
+}
+
+/* Stile principale della pagina di login */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif; /* Font di base */
+}
+
+/* Titolo della pagina */
+.login-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Colore del testo */
+}
+
+/* Contenitore del form */
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out; /* Transizione per hover */
+}
+
+.login-page form:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Effetto hover */
+}
+
+/* Stile delle label */
+.login-page label {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-bottom: 15px;
+  width: 100%;
+  color: #333;
+}
+
+/* Stile degli input */
+.login-page input {
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.login-page input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  outline: none;
+}
+
+/* Stile del pulsante */
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.login-page button:hover {
+  background-color: #45a049;
+  transform: scale(1.02); /* Leggera espansione */
+}
+
+/* Messaggio di errore */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  align-self: flex-start;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Messaggio di logout */
+.logout-message {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Animazione fade-in per i messaggi */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

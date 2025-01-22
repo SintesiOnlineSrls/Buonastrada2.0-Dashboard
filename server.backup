@@ -1,0 +1,241 @@
+const express = require("express");
+const fs = require("fs");
+const cors = require("cors");
+const app = express();
+const PORT = 3001; // Porta del server
+
+app.use(cors());
+app.use(express.json());
+
+// Percorso al file JSON
+const filePath = "./pdi.json";
+
+// Funzione per leggere il file JSON
+const readJsonFile = (callback) => {
+  fs.readFile(filePath, "utf8", (err, data) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      try {
+        const jsonData = JSON.parse(data);
+        callback(null, jsonData);
+      } catch (parseError) {
+        callback(parseError, null);
+      }
+    }
+  });
+};
+
+// Funzione per scrivere nel file JSON
+const writeJsonFile = (data, callback) => {
+  fs.writeFile(filePath, JSON.stringify(data, null, 2), "utf8", (err) => {
+    if (err) {
+      callback(err);
+    } else {
+      callback(null);
+    }
+  });
+};
+
+// Funzione per formattare data e ora
+const formatDate = () => {
+  const now = new Date();
+  const date = now.toLocaleDateString("it-IT").replace(/\//g, "-"); // Converte la data e sostituisce / con -
+  const time = now.toLocaleTimeString("it-IT", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+  return `${date} ${time}`; // Combina data e ora
+};
+
+// Endpoint per ottenere la lista dei PDI
+app.get("/api/pdi", (req, res) => {
+  readJsonFile((err, data) => {
+    if (err) {
+      return res
+        .status(500)
+        .json({ message: "Errore nel leggere il file JSON.", error: err });
+    }
+    res.json(data);
+  });
+});
+
+// Endpoint per ottenere un singolo PDI
+app.get("/api/pdi/:id", (req, res) => {
+  const { id } = req.params;
+
+  readJsonFile((err, data) => {
+    if (err) {
+      return res
+        .status(500)
+        .json({ message: "Errore nel leggere il file JSON.", error: err });
+    }
+
+    const pdi = data.find((pdi) => pdi.id === parseInt(id));
+
+    if (!pdi) {
+      return res.status(404).json({ message: "PDI non trovato." });
+    }
+
+    res.json(pdi);
+  });
+});
+
+// Endpoint per creare un nuovo PDI
+app.post("/api/pdi", (req, res) => {
+  const newPdi = req.body;
+
+  readJsonFile((err, data) => {
+    if (err) {
+      return res
+        .status(500)
+        .json({ message: "Errore nel leggere il file JSON.", error: err });
+    }
+
+    const nextId =
+      data.length > 0 ? Math.max(...data.map((pdi) => pdi.id)) + 1 : 1; // ID incrementale
+    const timestamp = formatDate(); // Usa la funzione per la formattazione della data
+
+    const newPdiWithId = {
+      ...newPdi,
+      id: nextId,
+      dataCreazione: timestamp,
+      ultimaModifica: timestamp, // Inizialmente uguale a dataCreazione
+    };
+    data.push(newPdiWithId);
+
+    writeJsonFile(data, (writeErr) => {
+      if (writeErr) {
+        return res.status(500).json({
+          message: "Errore nel salvare il file JSON.",
+          error: writeErr,
+        });
+      }
+      res.status(201).json(newPdiWithId);
+    });
+  });
+});
+
+// Endpoint per aggiornare un PDI
+app.put("/api/pdi/:id", (req, res) => {
+  const { id } = req.params;
+  const updatedPdi = req.body;
+
+  readJsonFile((err, data) => {
+    if (err) {
+      return res
+        .status(500)
+        .json({ message: "Errore nel leggere il file JSON.", error: err });
+    }
+
+    const index = data.findIndex((pdi) => pdi.id === parseInt(id));
+    if (index === -1) {
+      return res.status(404).json({ message: "PDI non trovato." });
+    }
+
+    const timestamp = formatDate(); // Aggiorna ultima modifica
+    data[index] = {
+      ...updatedPdi,
+      ultimaModifica: timestamp, // Aggiorna il campo ultimaModifica
+    };
+
+    writeJsonFile(data, (writeErr) => {
+      if (writeErr) {
+        return res.status(500).json({
+          message: "Errore nel salvare il file JSON.",
+          error: writeErr,
+        });
+      }
+      res.json(data[index]);
+    });
+  });
+});
+
+// Endpoint per eliminare un PDI
+app.delete("/api/pdi/:id", (req, res) => {
+  const { id } = req.params;
+
+  readJsonFile((err, data) => {
+    if (err) {
+      return res
+        .status(500)
+        .json({ message: "Errore nel leggere il file JSON.", error: err });
+    }
+
+    const filteredList = data.filter((pdi) => pdi.id !== parseInt(id));
+
+    writeJsonFile(filteredList, (writeErr) => {
+      if (writeErr) {
+        return res.status(500).json({
+          message: "Errore nel salvare il file JSON.",
+          error: writeErr,
+        });
+      }
+      res.status(204).send(); // Successo, nessun contenuto
+    });
+  });
+});
+
+// Endpoint per ottenere la lista dei comuni
+app.get("/api/comuni", (req, res) => {
+  const comuniPath = "./comuni.json";
+  fs.readFile(comuniPath, "utf8", (err, data) => {
+    if (err) {
+      return res.status(500).json({
+        message: "Errore nel leggere il file JSON dei comuni.",
+        error: err,
+      });
+    }
+    res.json(JSON.parse(data));
+  });
+});
+
+// Endpoint per ottenere la lista delle categorie
+app.get("/api/categorie", (req, res) => {
+  const categoriePath = "./categorie.json";
+  fs.readFile(categoriePath, "utf8", (err, data) => {
+    if (err) {
+      return res.status(500).json({
+        message: "Errore nel leggere il file JSON delle categorie.",
+        error: err,
+      });
+    }
+    res.json(JSON.parse(data));
+  });
+});
+
+// Endpoint per aggiornare le categorie
+app.put("/api/categorie", (req, res) => {
+  const updatedCategories = req.body;
+
+  fs.writeFile("./categorie.json", JSON.stringify(updatedCategories, null, 2), "utf8", (err) => {
+    if (err) {
+      return res.status(500).json({
+        message: "Errore nel salvare le categorie.",
+        error: err,
+      });
+    }
+    res.status(200).json(updatedCategories);
+  });
+});
+
+// Endpoint per aggiungere una nuova categoria
+app.post("/api/categorie", (req, res) => {
+  const newCategories = req.body;
+
+  fs.writeFile("./categorie.json", JSON.stringify(newCategories, null, 2), "utf8", (err) => {
+    if (err) {
+      return res.status(500).json({
+        message: "Errore nel salvare le categorie.",
+        error: err,
+      });
+    }
+    res.status(201).json(newCategories);
+  });
+});
+
+// Avvia il server
+app.listen(PORT, () => {
+  console.log(`Server avviato su http://localhost:${PORT}`);
+});

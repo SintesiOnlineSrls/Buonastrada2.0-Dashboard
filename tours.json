@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "nome": "Tour Archeologico Sicilia",
+    "slug": "tour-archeologico-sicilia",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Avventura"
+      }
+    ],
+    "pdi": [
+      {
+        "id": 14,
+        "nome": "Teatro Antico",
+        "comune": "Taormina"
+      },
+      {
+        "id": 22,
+        "nome": "Sbricchi",
+        "comune": "Acate"
+      }
+    ],
+    "dataCreazione": "28-11-2024 10:30:00",
+    "ultimaModifica": "09-12-2024 11:26:21"
+  },
+  {
+    "id": 2,
+    "nome": "Tour Naturalistico",
+    "slug": "tour-naturalistico",
+    "categorie": [
+      {
+        "id": 4,
+        "name": "Storico"
+      }
+    ],
+    "pdi": [
+      {
+        "id": 10,
+        "nome": "Sentiero Naturalistico",
+        "comune": "Bronte"
+      },
+      {
+        "id": 17,
+        "nome": "Grotta Mangiapane",
+        "comune": "Custonaci"
+      },
+      {
+        "id": 3,
+        "nome": "Centro Culturale Etneo",
+        "comune": "Catania"
+      },
+      {
+        "id": 23,
+        "nome": "Castello Mago",
+        "comune": "Acate"
+      }
+    ],
+    "dataCreazione": "28-11-2024 10:35:00",
+    "ultimaModifica": "04-12-2024 10:44:44"
+  },
+  {
+    "id": 3,
+    "nome": "Tour Culturale",
+    "slug": "tour-culturale",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Natura"
+      }
+    ],
+    "pdi": [
+      {
+        "id": 7,
+        "nome": "Museo della Ceramica",
+        "comune": "Caltagirone"
+      },
+      {
+        "id": 22,
+        "nome": "Sbricchi",
+        "comune": "Acate"
+      },
+      {
+        "id": 25,
+        "nome": "Prova Di Uno Slug",
+        "comune": "Aci Castello"
+      }
+    ],
+    "dataCreazione": "28-11-2024 11:00:00",
+    "ultimaModifica": "03-12-2024 12:14:30"
+  },
+  {
+    "id": 4,
+    "nome": "Tour Prova",
+    "slug": "tour-prova",
+    "categorie": [
+      {
+        "id": 8,
+        "name": "Fotografico"
+      }
+    ],
+    "pdi": [
+      {
+        "id": 20,
+        "nome": "Riserva dello Zingaro",
+        "comune": "Aci Bonaccorsi"
+      },
+      {
+        "id": 7,
+        "nome": "Museo della Ceramica",
+        "comune": "Caltagirone"
+      },
+      {
+        "id": 22,
+        "nome": "Sbricchi",
+        "comune": "Acate"
+      }
+    ],
+    "dataCreazione": "28-11-2024 11:20:00",
+    "ultimaModifica": "03-12-2024 12:17:10"
+  },
+  {
+    "id": 5,
+    "nome": "Tour Generato 5",
+    "slug": "tour-generato-5",
+    "categorie": [
+      {
+        "id": 5,
+        "name": "Enogastronomico"
+      },
+      {
+        "id": 8,
+        "name": "Fotografico"
+      },
+      {
+        "id": 4,
+        "name": "Storico"
+      }
+    ],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico",
+        "comune": "Aci Catena"
+      }
+    ],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "04-12-2024 10:42:10"
+  },
+  {
+    "id": 6,
+    "nome": "Tour Generato 6",
+    "slug": "tour-generato-6",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Avventura"
+      },
+      {
+        "id": 4,
+        "name": "Storico"
+      }
+    ],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico",
+        "comune": "Aci Catena"
+      }
+    ],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 7,
+    "nome": "Tour Generato 7",
+    "slug": "tour-generato-7",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Avventura"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 12:28:26"
+  },
+  {
+    "id": 8,
+    "nome": "Tour Generato 8",
+    "slug": "tour-generato-8",
+    "categorie": [
+      {
+        "id": 3,
+        "name": "Natura"
+      },
+      {
+        "id": 4,
+        "name": "Storico"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 9,
+    "nome": "Tour Generato 9",
+    "slug": "tour-generato-9",
+    "categorie": [
+      {
+        "id": 8,
+        "name": "Fotografico"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 10,
+    "nome": "Tour Generato 10",
+    "slug": "tour-generato-10",
+    "categorie": [
+      {
+        "id": 8,
+        "name": "Fotografico"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 11,
+    "nome": "Tour Generato 11",
+    "slug": "tour-generato-11",
+    "categorie": [
+      {
+        "id": 7,
+        "name": "Sportivo"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 12,
+    "nome": "Tour Generato 12",
+    "slug": "tour-generato-12",
+    "categorie": [
+      {
+        "id": 6,
+        "name": "Religioso"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 13,
+    "nome": "Tour Generato 13",
+    "slug": "tour-generato-13",
+    "categorie": [
+      {
+        "id": 1,
+        "name": "Avventura"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 14,
+    "nome": "Tour Generato 14",
+    "slug": "tour-generato-14",
+    "categorie": [
+      {
+        "id": 8,
+        "name": "Fotografico"
+      },
+      {
+        "id": 5,
+        "name": "Enogastronomico"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 15,
+    "nome": "Tour Generato 15",
+    "slug": "tour-generato-15",
+    "categorie": [
+      {
+        "id": 8,
+        "name": "Fotografico"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "03-12-2024 11:24:34",
+    "ultimaModifica": "03-12-2024 11:24:34"
+  },
+  {
+    "id": 16,
+    "nome": "Prova",
+    "slug": "prova",
+    "categorie": [
+      {
+        "id": 5,
+        "name": "Enogastronomico"
+      }
+    ],
+    "pdi": [],
+    "dataCreazione": "09-12-2024 11:29:08",
+    "ultimaModifica": "09-12-2024 11:29:08"
+  }
+]
