@@ -6,7 +6,6 @@ import "./PdiEdit.css";
 import axios from "axios";
 
 const PdiEdit = () => {
-  const { id } = useParams();
   const { slug } = useParams();
   const [pdiId, setPdiId] = useState(null);
   const navigate = useNavigate();
@@ -78,7 +77,7 @@ const PdiEdit = () => {
 
       loadData();
     }
-  }, [pdiId, fetchSinglePdi, setIsDirty]);
+  }, [pdiId, fetchSinglePdi, setIsDirty]);  
 
   useEffect(() => {
     const fetchPdiId = async () => {
@@ -92,7 +91,6 @@ const PdiEdit = () => {
         navigate("/error"); // Reindirizza a una pagina di errore
       }
     };
-
     fetchPdiId();
   }, [slug, navigate]);
 
@@ -168,43 +166,28 @@ const PdiEdit = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const {
-      nome,
-      slug,
-      comune,
-      provincia,
-      categorieSelezionate,
-      toursSelezionati,
-      dataCreazione,
-    } = formData;
-
-    if (!nome || !comune || categorieSelezionate.length === 0) {
-      setErrorMessage("Tutti i campi sono obbligatori!");
-      return;
-    }
-
     const updatedPdi = {
-      id: parseInt(id, 10),
-      nome,
-      slug,
-      comune,
-      provincia,
-      categorie: categorieSelezionate.map(Number),
-      tours: toursSelezionati,
-      dataCreazione,
-      ultimaModifica: new Date().toISOString().slice(0, 16),
+      id: parseInt(pdiId, 10), // Garantisce che sia un numero
+      nome: formData.nome,
+      slug: formData.slug,
+      comune: formData.comune,
+      provincia: formData.provincia,
+      categorie: formData.categorieSelezionate.map(Number),
+      tours: formData.toursSelezionati,
+      dataCreazione: formData.dataCreazione,
+      ultimaModifica: new Date().toISOString(),
     };
-
+    
     try {
       await updatePdi(updatedPdi);
       setIsDirty(false);
       setSuccessMessage("Modifiche salvate con successo!");
-      setErrorMessage("");
     } catch (error) {
       console.error("Errore durante il salvataggio:", error);
       setErrorMessage("Errore durante il salvataggio. Riprova più tardi.");
     }
   };
+  
 
   const handleBackClick = () => {
     if (isDirty) {

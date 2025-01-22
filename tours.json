@@ -11,14 +11,14 @@
     ],
     "pdi": [
       {
-        "id": 14,
-        "nome": "Teatro Antico",
-        "comune": "Taormina"
-      },
-      {
         "id": 22,
         "nome": "Sbricchi",
         "comune": "Acate"
+      },
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
       }
     ],
     "dataCreazione": "28-11-2024 10:30:00",
@@ -54,6 +54,11 @@
         "id": 23,
         "nome": "Castello Mago",
         "comune": "Acate"
+      },
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
       }
     ],
     "dataCreazione": "28-11-2024 10:35:00",
@@ -84,6 +89,11 @@
         "id": 25,
         "nome": "Prova Di Uno Slug",
         "comune": "Aci Castello"
+      },
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
       }
     ],
     "dataCreazione": "28-11-2024 11:00:00",
@@ -114,6 +124,11 @@
         "id": 22,
         "nome": "Sbricchi",
         "comune": "Acate"
+      },
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
       }
     ],
     "dataCreazione": "28-11-2024 11:20:00",
@@ -140,7 +155,7 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico",
+        "nome": "Museo Archeologico23",
         "comune": "Aci Catena"
       }
     ],
@@ -164,7 +179,7 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico",
+        "nome": "Museo Archeologico23",
         "comune": "Aci Catena"
       }
     ],
@@ -181,7 +196,13 @@
         "name": "Avventura"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 12:28:26"
   },
@@ -199,7 +220,13 @@
         "name": "Storico"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -213,7 +240,13 @@
         "name": "Fotografico"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -227,7 +260,13 @@
         "name": "Fotografico"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -241,7 +280,13 @@
         "name": "Sportivo"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -255,7 +300,13 @@
         "name": "Religioso"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -269,7 +320,13 @@
         "name": "Avventura"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -287,7 +344,13 @@
         "name": "Enogastronomico"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -301,7 +364,13 @@
         "name": "Fotografico"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -315,7 +384,13 @@
         "name": "Enogastronomico"
       }
     ],
-    "pdi": [],
+    "pdi": [
+      {
+        "id": 1,
+        "nome": "Museo Archeologico23",
+        "comune": "Aci Catena"
+      }
+    ],
     "dataCreazione": "09-12-2024 11:29:08",
     "ultimaModifica": "09-12-2024 11:29:08"
   }

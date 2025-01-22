@@ -74,6 +74,13 @@ const PdiCreate = () => {
     }));
   };
 
+  useEffect(() => {
+    axios.get("http://localhost:3001/api/comuni").then((res) => {
+      setComuni(res.data);
+      setFilteredComuni(res.data);
+    });
+  }, []);
+
   // Gestione della selezione di un comune
   const handleComuneSelect = (comune) => {
     setFormData((prevData) => ({

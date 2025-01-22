@@ -22,6 +22,10 @@ export const PdiProvider = ({ children }) => {
 
   // Funzione per caricare un singolo PDI
   const fetchSinglePdi = async (id) => {
+    if (!id || isNaN(id)) {
+      console.error("ID non valido:", id); // Log di debug
+      throw new Error("ID non valido");
+    }
     try {
       const response = await axios.get(`http://localhost:3001/api/pdi/${id}`);
       return response.data;

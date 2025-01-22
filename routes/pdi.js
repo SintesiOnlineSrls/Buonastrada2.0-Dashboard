@@ -245,7 +245,7 @@ const resolveCategoryNames = (categoryIds) => {
 
 // Crea un nuovo PDI
 router.post("/", async (req, res) => {
-  const { nome, comune, categorie, tours = [] } = req.body;
+  const { nome, comune, provincia, categorie, tours = [] } = req.body;
 
   if (
     !nome ||
@@ -284,6 +284,7 @@ router.post("/", async (req, res) => {
         nome,
         slug: slugPdi,
         comune,
+        provincia,
         categorie: resolvedCategories,
         tours: resolvedTours,
         dataCreazione: timestamp,
@@ -311,7 +312,7 @@ router.post("/", async (req, res) => {
 // Percorso per aggiornare un PDI
 router.put("/:id", async (req, res) => {
   const { id } = req.params;
-  const { nome, comune, categorie, tours, ...updatedPdi } = req.body;
+  const { nome, comune, provincia, categorie, tours, ...updatedPdi } = req.body;
 
   if (!nome || !comune || !categorie || !Array.isArray(categorie)) {
     return res.status(400).json({ message: "Dati mancanti o non validi." });
