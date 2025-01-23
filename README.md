@@ -16,28 +16,28 @@ Buonastrada 2.0 Dashboard è un'applicazione web per la gestione dei punti di in
    ```
 2. Naviga nella directory del progetto
 
-   cd buonastrada2_0_dashboard
+   `cd buonastrada2_0_dashboard`
 
 3. Installa le dipendeze
 
-   npm install
+   `npm install`
 
 ## Scripts Disponibili
 
 Nel progetto, puoi eseguire i seguenti script:
 
-npm start
+`npm start`
 Esegue l'app in modalità sviluppo.
 Apri http://localhost:3000 per visualizzarla nel browser.
 
 La pagina si ricaricherà quando apporti modifiche.
 Potresti anche vedere eventuali errori di lint nel console.
 
-npm test
+`npm test`
 Avvia il test runner in modalità interattiva.
 Consulta la sezione su running tests per ulteriori informazioni.
 
-npm run build
+`npm run build`
 Compila l'app per la produzione nella cartella build.
 Bundle React in modalità produzione e ottimizza la build per le migliori performance.
 
