@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# Buonastrada 2.0 Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Buonastrada 2.0 Dashboard è un'applicazione web per la gestione dei punti di interesse, comuni, categorie e tour. Questa applicazione è stata creata utilizzando [Create React App](https://github.com/facebook/create-react-app).
+
+## Requisiti
+
+- Node.js (versione 14 o superiore)
+- npm (versione 6 o superiore)
+
+## Installazione
+
+1. Clona il repository:
+
+   ```sh
+   git clone https://github.com/tuo-username/buonastrada2_0_dashboard.git
+   ```
 
 ## Available Scripts
 
