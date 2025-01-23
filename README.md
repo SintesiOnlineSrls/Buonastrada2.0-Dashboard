@@ -16,11 +16,15 @@ Buonastrada 2.0 Dashboard è un'applicazione web per la gestione dei punti di in
    ```
 2. Naviga nella directory del progetto
 
-   ```cd buonastrada2_0_dashboard```
+   ```sh
+   cd buonastrada2_0_dashboard
+   ```
 
 3. Installa le dipendeze
 
-   ```npm install```
+   ```sh
+   npm install
+   ```
 
 ## Scripts Disponibili
 
