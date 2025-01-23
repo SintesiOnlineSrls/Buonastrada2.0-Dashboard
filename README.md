@@ -11,41 +11,45 @@ Buonastrada 2.0 Dashboard è un'applicazione web per la gestione dei punti di in
 
 1. Clona il repository:
 
-   ```sh
-   git clone https://github.com/tuo-username/buonastrada2_0_dashboard.git
-   ```
-2. Naviga nella directory del progetto
+    ```sh
+    git clone https://github.com/tuo-username/buonastrada2_0_dashboard.git
+    ```
 
-   ```sh
-   cd buonastrada2_0_dashboard
-   ```
+2. Naviga nella directory del progetto:
 
-3. Installa le dipendeze
+    ```sh
+    cd buonastrada2_0_dashboard
+    ```
 
-   ```sh
-   npm install
-   ```
+3. Installa le dipendenze:
+
+    ```sh
+    npm install
+    ```
 
 ## Scripts Disponibili
 
 Nel progetto, puoi eseguire i seguenti script:
 
-`npm start`
-Esegue l'app in modalità sviluppo.
-Apri http://localhost:3000 per visualizzarla nel browser.
+### `npm start`
 
-La pagina si ricaricherà quando apporti modifiche.
+Esegue l'app in modalità sviluppo.\
+Apri [http://localhost:3000](http://localhost:3000) per visualizzarla nel browser.
+
+La pagina si ricaricherà quando apporti modifiche.\
 Potresti anche vedere eventuali errori di lint nel console.
 
-`npm test`
-Avvia il test runner in modalità interattiva.
-Consulta la sezione su running tests per ulteriori informazioni.
+### `npm test`
 
-`npm run build`
-Compila l'app per la produzione nella cartella build.
+Avvia il test runner in modalità interattiva.\
+Consulta la sezione su [running tests](https://facebook.github.io/create-react-app/docs/running-tests) per ulteriori informazioni.
+
+### `npm run build`
+
+Compila l'app per la produzione nella cartella `build`.\
 Bundle React in modalità produzione e ottimizza la build per le migliori performance.
 
-La build è minificata e i nomi dei file includono gli hash.
+La build è minificata e i nomi dei file includono gli hash.\
 L'app è pronta per essere distribuita!
 
 ## Struttura del Progetto
@@ -66,4 +70,5 @@ L'applicazione interagisce con le seguenti API:
 - /api/pdi: Endpoint per la gestione dei punti di interesse.
 
 ## Licenza
+
 Questo progetto è concesso in licenza sotto la licenza MIT. Consulta il file LICENSE per ulteriori dettagli.
