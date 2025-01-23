@@ -70,10 +70,6 @@ L'applicazione interagisce con le seguenti API:
 - `/api/tours`: Endpoint per la gestione dei tour.
 - `/api/pdi`: Endpoint per la gestione dei punti di interesse.
 
-## Contributi
-
-I contributi sono benvenuti! Sentiti libero di aprire una issue o una pull request.
-
 ## Licenza
 
 Questo progetto è concesso in licenza sotto la licenza MIT. Consulta il file LICENSE per ulteriori dettagli.
