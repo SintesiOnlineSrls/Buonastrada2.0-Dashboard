@@ -23,7 +23,7 @@ export const PdiProvider = ({ children }) => {
   // Funzione per caricare un singolo PDI
   const fetchSinglePdi = async (id) => {
     if (!id || isNaN(id)) {
-      console.error("ID non valido:", id); // Log di debug
+      console.error("ID non valido:", id);
       throw new Error("ID non valido");
     }
     try {
