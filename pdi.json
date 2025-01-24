@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "nome": "Museo Archeologico23",
-    "slug": "CT-aci-catena-museo-archeologico23",
-    "comune": "Aci Catena",
+    "nome": "Museo Archeologico",
+    "slug": "CT-acireale-museo-archeologico",
+    "comune": "Acireale",
     "provincia": "CT",
     "categorie": [
       {
@@ -20,7 +20,7 @@
       }
     ],
     "dataCreazione": "25-11-2024 10:30:00",
-    "ultimaModifica": "22-01-2025 10:32:12",
+    "ultimaModifica": "24-01-2025 11:22:13",
     "tours": [
       {
         "id": 5,
@@ -37,14 +37,6 @@
       {
         "id": 2,
         "nome": "Tour Naturalistico"
-      },
-      {
-        "id": 3,
-        "nome": "Tour Culturale"
-      },
-      {
-        "id": 4,
-        "nome": "Tour Prova"
       },
       {
         "id": 7,
@@ -73,26 +65,14 @@
       {
         "id": 13,
         "nome": "Tour Generato 13"
-      },
-      {
-        "id": 14,
-        "nome": "Tour Generato 14"
-      },
-      {
-        "id": 15,
-        "nome": "Tour Generato 15"
-      },
-      {
-        "id": 16,
-        "nome": "Prova"
       }
     ]
   },
   {
     "id": 2,
     "nome": "Riserva Naturale Orientata",
-    "slug": "CT-caltagirone-riserva-naturale-orientata",
-    "comune": "Caltagirone",
+    "slug": "EN-acate-riserva-naturale-orientata",
+    "comune": "Acate",
     "provincia": "CT",
     "categorie": [
       {
@@ -101,7 +81,7 @@
       }
     ],
     "dataCreazione": "25-11-2024 10:31:00",
-    "ultimaModifica": "09-12-2024 10:58:59",
+    "ultimaModifica": "24-01-2025 11:03:09",
     "tours": []
   },
   {

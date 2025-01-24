@@ -30,7 +30,26 @@ const PdiEdit = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const [successMessage, setSuccessMessage] = useState("");
 
-  // Caricamento dati iniziale
+  useEffect(() => {
+    const fetchPdiId = async () => {
+      try {
+        const response = await axios.get(
+          `http://localhost:3001/api/pdi/slug/${slug}`
+        );
+        if (response.data && response.data.id) {
+          setPdiId(response.data.id);
+        } else {
+          throw new Error("PDI non trovato.");
+        }
+      } catch (error) {
+        console.error("Errore nel recupero dell'ID:", error);
+        setErrorMessage("PDI non trovato. Verifica che lo slug sia corretto.");
+        navigate("/error"); // Reindirizza a una pagina di errore
+      }
+    };
+    fetchPdiId();
+  }, [slug, navigate]);
+
   useEffect(() => {
     if (pdiId) {
       const loadData = async () => {
@@ -77,22 +96,7 @@ const PdiEdit = () => {
 
       loadData();
     }
-  }, [pdiId, fetchSinglePdi, setIsDirty]);  
-
-  useEffect(() => {
-    const fetchPdiId = async () => {
-      try {
-        const response = await axios.get(
-          `http://localhost:3001/api/pdi/slug/${slug}`
-        );
-        setPdiId(response.data.id);
-      } catch (error) {
-        console.error("Errore nel recupero dell'ID:", error);
-        navigate("/error"); // Reindirizza a una pagina di errore
-      }
-    };
-    fetchPdiId();
-  }, [slug, navigate]);
+  }, [pdiId, fetchSinglePdi, setIsDirty]);
 
   useEffect(() => {
     const handleBeforeUnload = (e) => {
@@ -177,7 +181,7 @@ const PdiEdit = () => {
       dataCreazione: formData.dataCreazione,
       ultimaModifica: new Date().toISOString(),
     };
-    
+
     try {
       await updatePdi(updatedPdi);
       setIsDirty(false);
@@ -187,7 +191,6 @@ const PdiEdit = () => {
       setErrorMessage("Errore durante il salvataggio. Riprova più tardi.");
     }
   };
-  
 
   const handleBackClick = () => {
     if (isDirty) {

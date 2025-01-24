@@ -17,8 +17,8 @@
       },
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "28-11-2024 10:30:00",
@@ -57,8 +57,8 @@
       },
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "28-11-2024 10:35:00",
@@ -89,11 +89,6 @@
         "id": 25,
         "nome": "Prova Di Uno Slug",
         "comune": "Aci Castello"
-      },
-      {
-        "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
       }
     ],
     "dataCreazione": "28-11-2024 11:00:00",
@@ -124,11 +119,6 @@
         "id": 22,
         "nome": "Sbricchi",
         "comune": "Acate"
-      },
-      {
-        "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
       }
     ],
     "dataCreazione": "28-11-2024 11:20:00",
@@ -155,8 +145,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -179,8 +169,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -199,8 +189,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -223,8 +213,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -243,8 +233,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -263,8 +253,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -283,8 +273,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -303,8 +293,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -323,8 +313,8 @@
     "pdi": [
       {
         "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
+        "nome": "Museo Archeologico",
+        "comune": "Acireale"
       }
     ],
     "dataCreazione": "03-12-2024 11:24:34",
@@ -344,13 +334,7 @@
         "name": "Enogastronomico"
       }
     ],
-    "pdi": [
-      {
-        "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
-      }
-    ],
+    "pdi": [],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -364,13 +348,7 @@
         "name": "Fotografico"
       }
     ],
-    "pdi": [
-      {
-        "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
-      }
-    ],
+    "pdi": [],
     "dataCreazione": "03-12-2024 11:24:34",
     "ultimaModifica": "03-12-2024 11:24:34"
   },
@@ -384,13 +362,7 @@
         "name": "Enogastronomico"
       }
     ],
-    "pdi": [
-      {
-        "id": 1,
-        "nome": "Museo Archeologico23",
-        "comune": "Aci Catena"
-      }
-    ],
+    "pdi": [],
     "dataCreazione": "09-12-2024 11:29:08",
     "ultimaModifica": "09-12-2024 11:29:08"
   }
