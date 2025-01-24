@@ -91,22 +91,14 @@ router.delete("/:id", (req, res) => {
 
 // Ottieni l'ID del PDI a partire dallo slug
 router.get("/slug/:slug", (req, res) => {
-  const { slug } = req.params;
-
-  readJsonFile(filePath, (err, data) => {
-    if (err) {
-      return res
-        .status(500)
-        .json({ message: "Errore nel leggere i PDI.", error: err });
-    }
-
-    const pdi = data.find((pdi) => pdi.slug === slug);
-    if (!pdi) {
-      return res.status(404).json({ message: "PDI non trovato." });
-    }
-
-    res.json({ id: pdi.id });
-  });
+  const slug = req.params.slug; // Lo slug passato dal frontend
+  const pdi = pdiData.find((pdi) => pdi.slug === slug);
+  if (pdi) {
+    res.json(pdi);
+  } else {
+    console.error("PDI non trovato per slug:", slug);
+    res.status(404).json({ message: "PDI non trovato" });
+  }
 });
 
 // Funzione per aggiornare i tour associati a un PDI
@@ -400,6 +392,19 @@ router.put("/remove-tour/:tourId", (req, res) => {
       res.status(200).json({ message: "Tour rimosso dai PDI." });
     });
   });
+});
+
+const pdiData = require("../pdi.json"); // Assicurati che il percorso sia corretto
+
+// Endpoint per ottenere un PDI tramite slug
+router.get("/slug/:slug", (req, res) => {
+  const slug = req.params.slug;
+  const pdi = pdiData.find((pdi) => pdi.slug === slug);
+  if (pdi) {
+    res.json(pdi);
+  } else {
+    res.status(404).json({ message: "PDI non trovato" });
+  }
 });
 
 module.exports = router;
