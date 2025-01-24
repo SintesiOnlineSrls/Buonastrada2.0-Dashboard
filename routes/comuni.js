@@ -32,6 +32,36 @@ const generatePdiSlug = (slugComune, nomePdi) => {
   return `${slugComune}-${safeNomePdi}`;
 };
 
+// Ottieni un comune tramite slug
+router.get("/slug/:slug", (req, res) => {
+  const { slug } = req.params;
+
+  fs.readFile(comuniPath, "utf8", (err, data) => {
+    if (err) {
+      console.error("Errore nella lettura del file comuni.json:", err);
+      return res
+        .status(500)
+        .json({ message: "Errore nel leggere i comuni.", error: err });
+    }
+
+    try {
+      const comuni = JSON.parse(data);
+      const comune = comuni.find((comune) => comune.slug === slug);
+
+      if (!comune) {
+        return res.status(404).json({ message: "Comune non trovato." });
+      }
+
+      res.json(comune);
+    } catch (parseError) {
+      console.error("Errore nel parsing del file comuni.json:", parseError);
+      res
+        .status(500)
+        .json({ message: "Errore nella lettura dei dati.", error: parseError });
+    }
+  });
+});
+
 // Ottieni la lista completa dei comuni
 router.get("/", (req, res) => {
   fs.readFile(comuniPath, "utf8", (err, data) => {
