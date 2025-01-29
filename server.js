@@ -10,6 +10,7 @@ app.use(express.json());
 // Importa le route
 const pdiRoutes = require("./routes/pdi");
 const comuniRoutes = require("./routes/comuni");
+const provinceRoutes = require("./routes/province");
 const categorieRoutes = require("./routes/categorie");
 const tourRoutes = require("./routes/tours");
 const categorieTourRoutes = require("./routes/categorie-tour");
@@ -17,6 +18,7 @@ const categorieTourRoutes = require("./routes/categorie-tour");
 // Registra le route
 app.use("/api/pdi", pdiRoutes);
 app.use("/api/comuni", comuniRoutes);
+app.use("/api/province", provinceRoutes);
 app.use("/api/categorie", categorieRoutes);
 app.use("/api/tours", tourRoutes);
 app.use("/api/categorie-tour", categorieTourRoutes);

@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Agrigento",
+        "slug": "AG"
+        },
+        {
+        "nome": "Caltanissetta",
+        "slug": "CL"
+        },
+        {
+        "nome": "Catania",
+        "slug": "CT"
+        },
+        {
+        "nome": "Enna",
+        "slug": "EN"
+        },
+        {
+        "nome": "Messina",
+        "slug": "ME"
+        },
+        {
+        "nome": "Palermo",
+        "slug": "PA"
+        },
+        {
+        "nome": "Ragusa",
+        "slug": "RG"
+        },
+        {
+        "nome": "Siracusa",
+        "slug": "SR"
+        },
+        {
+        "nome": "Trapani",
+        "slug": "TP"
+    }
+]
