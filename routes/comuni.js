@@ -46,7 +46,7 @@ router.get("/slug/:slug", (req, res) => {
 
     try {
       const comuni = JSON.parse(data);
-      const comune = comuni.find((comune) => comune.slug === slug);
+      const comune = comuni.find((comune) => comune.slug.toLowerCase() === slug.toLowerCase());
 
       if (!comune) {
         return res.status(404).json({ message: "Comune non trovato." });

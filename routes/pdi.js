@@ -99,7 +99,7 @@ router.get("/slug/:slug", (req, res) => {
         .status(500)
         .json({ message: "Errore nel leggere i PDI.", error: err });
     }
-    const pdi = pdiData.find((pdi) => pdi.slug === slug);
+    const pdi = pdiData.find((pdi) => pdi.slug.toLowerCase() === slug.toLowerCase());
     if (pdi) {
       res.json(pdi);
     } else {
